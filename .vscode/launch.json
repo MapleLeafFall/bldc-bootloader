@@ -8,6 +8,7 @@
             "name": "Cortex Debug",
             "cwd": "${workspaceRoot}",
             "executable": "${workspaceRoot}/build/BLDC_4_Bootloader.elf",
+//            "executable": "${workspaceRoot}/build/freertos_led.axf",
             "request": "launch",            //launch是指启动调试时同时开始执行程序
             "type": "cortex-debug",
             
