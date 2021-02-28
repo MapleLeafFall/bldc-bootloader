@@ -244,3 +244,6 @@ upload-pi-remote: build/$(PROJECT).elf
 
 debug-start:
 	openocd -f stm32-bv_openocd.cfg
+
+prog:
+	/cygdrive/d/STMicroelectronics/"STM32 ST-LINK Utility/ST-LINK Utility"/ST-LINK_CLI.exe -P build/$(PROJECT).bin
